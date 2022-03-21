@@ -1,0 +1,30 @@
+.conteudo{
+    height: 470px;
+    margin-top: 64px;
+}
+
+.conteudo__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 364px;
+    width: 100%;
+    padding: 64px;
+    background-color: #eaf2fd;
+}
+
+.conteudo__logo{
+    width: 176px ;
+    height: 50px;
+}
+
+.rodape{
+    height: 106px;
+}
+
+.rodape p {
+    color: black;
+    text-align: center;
+    padding:32px;
+}
+

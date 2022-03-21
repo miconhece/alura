@@ -1,0 +1,15 @@
+.interno {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.topo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0 32px 0;
+    width: 70%;
+}
+
+

@@ -1,0 +1,71 @@
+.produto__imagem {
+    width: 176px ;
+    height: 174px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.produto__imagem--starwars1 {
+    background-image: url('../../img/head-stormtrooper.jpg');
+}
+
+.produto__imagem--starwars2 {
+    background-image: url('../../img/head-darthVader.jpg');
+}
+
+.produto__imagem--starwars3 {
+    background-image: url('../../img/yodda.jpg');
+}
+
+.produto__imagem--starwars4 {
+    background-image: url('../../img/stormtrooper.jpg');
+}
+
+.produto__imagem--starwars5 {
+    background-image: url('../../img/baby-yodda.jpg');
+}
+
+.produto__imagem--starwars6 {
+    background-image: url('../../img/kylo-ren.jpg');
+}
+
+.produto__imagem--consoles1 {
+    background-image: url('../../img/controle-branco.jpg');
+}
+.produto__imagem--consoles2 {
+    background-image: url('../../img/console-videogame.jpg');
+}
+.produto__imagem--consoles3 {
+    background-image: url('../../img/console-antigo.jpg');
+}
+.produto__imagem--consoles4 {
+    background-image: url('../../img/controle-switch.jpg');
+}
+.produto__imagem--consoles5 {
+    background-image: url('../../img/playstation.jpg');
+}
+.produto__imagem--consoles6 {
+    background-image: url('../../img/gameboy.jpg');
+}
+
+.produto__imagem--diversos1 {
+    background-image: url('../../img/simbos.jpg');
+}
+.produto__imagem--diversos2 {
+    background-image: url('../../img/pessoa-jogando.jpg');
+}
+.produto__imagem--diversos3 {
+    background-image: url('../../img/sonic.jpg');
+}
+.produto__imagem--diversos4 {
+    background-image: url('../../img/radio-rosa.jpg');
+}
+.produto__imagem--diversos5 {
+    background-image: url('../../img/pessoa-vr-camiseta.jpg');
+}
+
+.produto__imagem--diversos6 {
+    background-image: url('../../img/picachu.jpg');
+}
+

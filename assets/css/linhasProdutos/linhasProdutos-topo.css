@@ -1,0 +1,24 @@
+.linhasProdutos__topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linhasProdutos__nome {
+    color: #464646;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.linhasProdutos__botao{
+    width: 98px;
+    color: #2a7ae4;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}

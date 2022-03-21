@@ -1,0 +1,17 @@
+.hero {
+    align-items: center;
+    background-image: linear-gradient(
+        to right bottom,
+        rgb(0, 0, 0, 0),
+        rgb(0, 0, 0, 0.8)
+        ),
+        url('../../banner-image.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 352px;
+    width: 100vw;
+  }
+  

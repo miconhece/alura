@@ -1,0 +1,6 @@
+.produtos {
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
