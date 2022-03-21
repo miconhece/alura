@@ -1,16 +1,19 @@
 .conteudo{
-    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 368px;
     margin-top: 64px;
+    background-color: #eaf2fd;
+    width: 100%;
 }
 
 .conteudo__container{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content:space-between;
     height: 364px;
-    width: 100%;
-    padding: 64px;
-    background-color: #eaf2fd;
+    width: 70%;
+    padding: 64px 0 64px 0;
 }
 
 .conteudo__logo{
@@ -18,13 +21,24 @@
     height: 50px;
 }
 
-.rodape{
-    height: 106px;
+.conteudo__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 176px;
 }
 
-.rodape p {
-    color: black;
-    text-align: center;
-    padding:32px;
+.conteudo__link a {
+    text-decoration: none;
+    color: #464646;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
 }
+
+
+
+
 

@@ -1,0 +1,12 @@
+.rodape{
+    height: 102px;
+    padding: 32px;
+}
+
+.rodape p {
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.78px;
+}
