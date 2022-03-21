@@ -1,0 +1,42 @@
+.fieldset {
+    display: flex;
+    flex-grow: 2;
+}
+
+.formulario__legenda{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    color:#464646;
+}
+
+.formulario__itens {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__itens input{
+    width: 560px;
+    border: none;
+    border-radius: 4px;
+    margin: 8px 0 8px 0;
+}
+
+.formulario__itens #nome {
+    height: 56px;
+    text-align: start;
+}
+
+.formulario__itens #mensagem {
+    height: 82px;
+}
+
+.formulario__botao {
+    background-color: #2a7ae4;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 16px;
+    width: 165px;
+}
