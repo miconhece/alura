@@ -1,6 +1,9 @@
 .rodape{
-    height: 102px;
+    height: 70px;
     padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .rodape p {
