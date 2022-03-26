@@ -45,11 +45,17 @@
                 <fieldset>
                     <legend class="formulario__legenda">Fale Conosco</legend>
                     <div class="formulario__itens">
-                        <label><input type="text" name="nome" value="Nome" id="nome"></label>
-                        <label><input type="text" name="mensagem" value="Escreva sua mensagem" id="mensagem"></label>
-                    </div>
-                    <input class="formulario__botao" type="button" value="Enviar mensagem">
-                </fieldset>
+                        <div class="formulario__nome">
+                            <input id="nome" name="nome" type="text" required>
+                            <label for="nome">Nome</label>
+                       </div>
+                       <div class="formulario__mensagem">
+                            <input id="mensagem" name="mensagem" type="text" required>
+                            <label for="mensagem">Digite a sua mensagem</label>
+                       </div>
+                   </div>
+                   <input class="formulario__botao" type="button" value="Enviar mensagem">
+               </fieldset>
             </form>
          </div> 
     </footer>

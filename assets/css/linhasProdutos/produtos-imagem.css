@@ -1,9 +1,9 @@
 .produto__imagem {
-    width: 176px ;
-    height: 174px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 174px;
+    width: 176px ;
 }
 
 .produto__imagem--starwars1 {

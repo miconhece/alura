@@ -1,24 +1,24 @@
 .conteudo{
+    align-items: center;
+    background-color: #eaf2fd;
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 368px;
     margin-top: 64px;
-    background-color: #eaf2fd;
     width: 100%;
 }
 
 .conteudo__container{
     display: flex;
-    justify-content:space-between;
     height: 364px;
-    width: 70%;
+    justify-content:space-between;
     padding: 64px 0 64px 0;
+    width: 75%;
 }
 
 .conteudo__logo{
-    width: 176px ;
     height: 50px;
+    width: 176px ;
 }
 
 .conteudo__lista {
@@ -29,13 +29,13 @@
 }
 
 .conteudo__link a {
-    text-decoration: none;
     color: #464646;
     font-family: 'Raleway', sans-serif; 
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     text-align: left;
+    text-decoration: none;
 }
 
 

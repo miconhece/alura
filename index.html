@@ -201,8 +201,14 @@
                <fieldset>
                    <legend class="formulario__legenda">Fale Conosco</legend>
                    <div class="formulario__itens">
-                       <label><input type="text" name="nome" value="Nome: " id="nome"></label>
-                       <label><input type="text" name="mensagem" value="Escreva sua mensagem: " id="mensagem"></label>
+                       <div class="formulario__caixa">
+                            <input id="nome" class="formulario__input" name="nome" type="text" placeholder="Nome" required>
+                            <label for="nome" class="formulario__label">Nome</label>
+                       </div>
+                       <div class="formulario__caixa">
+                            <input id="mensagem" class="formulario__input" name="mensagem" type="text" placeholder="Digite sua mensagem" required>
+                            <label for="mensagem" class="formulario__label">Digite a sua mensagem</label>
+                       </div>
                    </div>
                    <input class="formulario__botao" type="button" value="Enviar mensagem">
                </fieldset>

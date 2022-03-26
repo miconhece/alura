@@ -5,40 +5,67 @@
 }
 
 .formulario__legenda{
+    color:#464646;
     font-family: 'Raleway', sans-serif; 
     font-size: 16px;
     font-weight: 700;
     line-height: 18.78px;
-    color:#464646;
 }
 
 .formulario__itens {
     display: flex;
     flex-direction: column;
-}
-
-.formulario__itens input{
+    font-family: 'Raleway', sans-serif;
     width: 560px;
+}
+
+.formulario__input::placeholder {
+    color: transparent;
+}
+
+.formulario__caixa {
+    position: relative;
+}
+
+.formulario__caixa #nome {
+    height: 56px;    
+}
+
+.formulario__caixa #mensagem {
+    height: 82px;    
+}
+
+.formulario__caixa > .formulario__label {
+    color: #a2a2a2;
+    font-size: 16px;
+    margin-left: 12px; 
+    margin-top: 16px;
+    position: absolute;
+    top: 8px;
+    transform-origin: 0 0;
+}
+
+.formulario__input {
     border: none;
+    border-bottom: 1px solid #c8c8c8;
     border-radius: 4px;
+    font-size: 16px;
     margin: 8px 0 8px 0;
-    font-family: 'Raleway', sans-serif; 
-}
-
-.formulario__itens #nome {
-    height: 56px;
+    padding-left: 12px;
+    padding-top: 4px;
     text-align: start;
+    width: 100%;
 }
 
-.formulario__itens #mensagem {
-    height: 82px;
+.formulario__input:focus + .formulario__label, .formulario__input:not(:placeholder-shown) + .formulario__label {
+    transform:translateY(-.6em) scale(.85);
 }
 
 .formulario__botao {
     background-color: #2a7ae4;
-    text-align: center;
     border: none;
     color: white;
     padding: 16px;
+    text-align: center;
     width: 165px;
 }
