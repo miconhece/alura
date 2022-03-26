@@ -1,20 +1,63 @@
-body {
+* {
     font-family: 'Raleway', sans-serif; 
+}
+
+body { 
+    height: 1080px;
 }
 
 main {
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color:rgba(0, 0, 0, 0.05);
     display: flex;
+    height: calc(1080px - 492px - 115px);
     justify-content: space-around;
-    height: 450px;
     margin-bottom: -64px;
 }
 
-.login__itens {
-    background-color: blue;
+.iniciar__sessao {
+    font-family: Raleway;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    height: 291px;
     justify-content: space-between;
+    width: 423px;
 }
+
+.login__legenda{
+    color: #464646;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;    
+}
+
+.login__input{
+    border:none;
+    border-bottom: 1px solid #a2a2a2;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 63px;
+    padding-left: 12px;
+    width: 100%;
+}
+
+.login__botao{
+    background-color: #2a7ae4;
+    border:none;
+    color: white;
+    height: 63px;
+    padding: 12px, 16px, 12px, 16px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
 
