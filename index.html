@@ -20,6 +20,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
     <title>Alura Geek</title>
 </head>
 <body>
@@ -28,7 +30,10 @@
             <div class="topo">
                 <div class="topo__direita"> 
                     <img class="topo__logo" src="assets/img/Logo.svg" alt="logotipo da Alura Geek" />
-                    <input class="topo__barraPesquisa" type="text" placeholder="O que deseja encontrar?">
+                    <div class="topo__pesquisa">
+                        <input class="topo__barraPesquisa" type="text" placeholder="O que deseja encontrar?">
+                        <label class="topo__label"><span id="search-icons" class="material-icons-outlined"> search </span></label>
+                    </div>
                 </div>
                 <div class="topo__esquerda">
                     <input class ="topo__botao" type="button" value="Login">
@@ -51,7 +56,11 @@
        <div class="container">
            <div class="linhasProdutos__topo">
                 <h2 class="linhasProdutos__nome">Star Wars</h2>
-                <input class="linhasProdutos__botao" type="buttom" value="Ver tudo">
+                <div class="linhasProdutos__icones">
+                    <input class="linhasProdutos__botao" type="buttom" value="Ver tudo">
+                    <span id="East__icon" class="material-icons-outlined">
+                    east </span>
+                </div>
            </div>
     <!-- Itens/ Produtos -->
            <div class="produtos">
@@ -95,10 +104,14 @@
        </div>
        <!-- Criação das Linhas de Produtos -->
        <div class="container">
-            <div class="linhasProdutos__topo">
-                <h2 class="linhasProdutos__nome">Consoles</h2>
+        <div class="linhasProdutos__topo">
+            <h2 class="linhasProdutos__nome">Consoles</h2>
+            <div class="linhasProdutos__icones">
                 <input class="linhasProdutos__botao" type="buttom" value="Ver tudo">
-        </div>
+                <span id="East__icon" class="material-icons-outlined">
+                east </span>
+            </div>
+       </div>
  <!-- Itens/ Produtos -->
             <div class="produtos">
                 <div class="produto">
@@ -143,8 +156,12 @@
         <div class="container">
             <div class="linhasProdutos__topo">
                 <h2 class="linhasProdutos__nome">Diversos</h2>
-                <input class="linhasProdutos__botao" type="buttom" value="Ver tudo">
-        </div>
+                <div class="linhasProdutos__icones">
+                    <input class="linhasProdutos__botao" type="buttom" value="Ver tudo">
+                    <span id="east__icon" class="material-icons-outlined">
+                    east </span>
+                </div>
+           </div>
     <!-- Itens/ Produtos -->
             <div class="produtos">
                 <div class="produto">
