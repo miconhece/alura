@@ -45,6 +45,11 @@
     width: 182px;
 }
 
+.topo__botao > a {
+    text-decoration: none;
+    color: #2a7ae4;
+}
+
 .topo__botao:hover {
     background-color: #2a7be444;
     transition-timing-function: 300ms;
