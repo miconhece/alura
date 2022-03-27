@@ -1,3 +1,7 @@
+* {
+    font-family: 'Raleway', sans-serif; 
+}
+
 .linhasProdutos__topo{
     align-items: center;
     display: flex;
